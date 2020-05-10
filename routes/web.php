@@ -15,10 +15,16 @@ use Illuminate\Support\Facades\Route;
 
 
 
-Auth::routes();
+//Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('home');
 Route::get('/section/{id}','Section\SectionController@show');
+Route::post('login','LoginController@login')->name('signin');
+Route::post('register','RegisterController@register')->name('signup');
+Route::prefix('user')->group(function(){
+    Route::get('login','LoginController@show');
+    Route::get('register','RegisterController@show');
+});
 Route::prefix('course')->group(function(){
     Route::get('list/{id}','Course\CourseController@list');
     Route::get('more/{id}','Course\CourseController@more');

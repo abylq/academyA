@@ -20,7 +20,7 @@ class SectionController extends Controller
 
     public function show($id)
     {
-        $listCourse = Section::findOrfail($id)->courses;
+        $listCourse = Section::findOrfail($id);
         return view('pages.courses',['listCourse'=>$listCourse]);
     }
 
