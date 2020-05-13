@@ -7,8 +7,16 @@ use App\Entity\User\User;
 
 trait RegisterUser
 {
-    public function register($fields)
+    public function registerUser($fields)
     {
-       return $fields;
+      	
+      	
+      	$user = User::create([
+            'name'      => $fields->name,
+            'email'     => $fields->email,
+            'password'  => $fields->password
+        ]);
+
+        return $user;
     }
 }

@@ -18,7 +18,7 @@ class RegisterController extends Controller
     public function register(RegisterRequest $requestFields)
     {
 
-        $user = $this->register($requestFields);
+        $user = $this->registerUser($requestFields);
 
     }
 }

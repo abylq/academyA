@@ -2,25 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d248ccb-cb5b-43fd-af7b-6e359dbf5c8d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Jobs/Activition.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Traits/RegisterUser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/login.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Entity/Course/VideoCourse.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Entity/Course/VideoCourse.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Entity/User/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Entity/User/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Course/CourseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Course/CourseController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Section/SectionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Section/SectionController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/UseCases/Course/CourseService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/UseCases/Course/CourseService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/courses.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/courses.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/list-course.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/list-course.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/more-course.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/more-course.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Traits/RegisterUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Traits/RegisterUser.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -199,6 +185,7 @@
       <workItem from="1589033289199" duration="2065000" />
       <workItem from="1589052141906" duration="256000" />
       <workItem from="1589099665034" duration="1225000" />
+      <workItem from="1589192667605" duration="585000" />
     </task>
     <servers />
   </component>
